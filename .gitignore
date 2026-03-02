@@ -5,3 +5,8 @@ __pycache__/
 .env
 *.log
 .DS_Store
+influxdb/data/
+influxdb2-*/
+*.tar.gz
+*.deb
+influxdata-archive_compat.key
