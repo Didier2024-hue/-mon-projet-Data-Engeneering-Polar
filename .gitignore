@@ -1,12 +1,31 @@
-pol/
-__pycache__/
+# --- Python ---
+pol/                   # virtualenv
+__pycache__/           # cache Python
 *.pyc
 *.pyo
-.env
+
+# --- Environnements / secrets ---
+.env                   # fichier de configuration secrets
+
+# --- Logs ---
 *.log
+
+# --- macOS ---
 .DS_Store
-influxdb/data/
-influxdb2-*/
+
+# --- InfluxDB local ---
+influxdb/data/         # stockage InfluxDB local
+influxdb2-*/           # anciens containers ou données temporaires
+
+# --- Archives / packages ---
 *.tar.gz
 *.deb
 influxdata-archive_compat.key
+
+# --- Optionnel ---
+# Si tu veux ignorer d'autres fichiers temporaires ou outputs générés
+*.tmp
+*.bak
+
+# Données extraites Polar
+data/
