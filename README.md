@@ -250,7 +250,7 @@ mcp
 
 ## 👤 Author
 
-**Didier Mondor** — Personal data science project applied to sports performance
+Personal data science project applied to sports performance
 
 ---
 
