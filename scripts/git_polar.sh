@@ -1,9 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -e
 
-cd /home/datascientest/cde/polar
+cd /home/datascientest/cde/polar || exit 1
 
-git add .
-git commit -m "${1:-update}"
-git push origin dev
-
-echo "✅ Pushed sur dev"
+if [[ -n $(git status --porcelain) ]]; then
+    git add -u
+    git commit -m "${1:-update}"
+    git push origin dev
+    echo "✅ Pushed sur dev"
+else
+    echo "ℹ️ Rien à commit"
+fi
