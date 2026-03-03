@@ -240,11 +240,18 @@ mcp
 
 ## 🗺️ Roadmap
 
-- [ ] User authentication on the web interface
-- [ ] Automatic post-session notifications
-- [ ] PDF export of analysis reports
-- [ ] Multi-user support
-- [ ] Nutrition data integration
+v1
+Polar Flow ingestion
+Grafana dashboards
+
+v2
+AI training insights
+
+v3
+Fatigue prediction model
+
+v4
+Training recommendation system
 
 ---
 
@@ -256,4 +263,4 @@ mcp
 
 ## 📄 License
 
-Private project — all rights reserved
+MIT License
