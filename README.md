@@ -257,7 +257,7 @@ Training recommendation system
 
 ## 👤 Author
 
-**Didier Mondor** — Personal data science project applied to sports performance
+**kiemberaid** — Personal data science project applied to sports performance
 
 ---
 
