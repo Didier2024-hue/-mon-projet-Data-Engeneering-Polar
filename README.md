@@ -257,7 +257,7 @@ Training recommendation system
 
 ## 👤 Author
 
-**kiemberaid** — Personal data science project applied to sports performance
+**Didier joséphine** — Personal data science project applied to sports performance
 
 ---
 
